@@ -33,7 +33,7 @@ FilmKu adalah website informasi film yang menampilkan berbagai film terbaru dan 
     ```
     npm install
     ```
-    npm run dev
+  
     ```
 
     npm run dev
