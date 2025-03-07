@@ -21,11 +21,22 @@ FilmKu adalah website informasi film yang menampilkan berbagai film terbaru dan 
 ## Cara Menjalankan Program
 1. Clone repository:
    ```
-   git clone https://github.com/username/filmku.git
+   git clone https://github.com/WwzFwz/Day3-Training-ARC-13523065.git
    ```
-  ```
-   cd filmku
-   ```
+    ```
+    code Day3-Training-ARC-13523065
+    ```
+
+    ```
+    cd backend
+    ```
+    ```
+    npm install
+    ```
+    npm run dev
+    ```
+
+    Kemudian show preview index.html 
 
    ```
 movie-info-website/
