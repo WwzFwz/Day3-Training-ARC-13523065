@@ -36,8 +36,12 @@ FilmKu adalah website informasi film yang menampilkan berbagai film terbaru dan 
     npm run dev
     ```
 
-    Kemudian show preview index.html 
+    npm run dev
 
+    ```
+
+    Kemudian show preview index.html
+    
     ```
     movie-info-website/
     ├── frontend/                  # Folder untuk kode frontend
