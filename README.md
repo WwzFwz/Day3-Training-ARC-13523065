@@ -38,27 +38,27 @@ FilmKu adalah website informasi film yang menampilkan berbagai film terbaru dan 
 
     Kemudian show preview index.html 
 
-   ```
-movie-info-website/
-├── frontend/                  # Folder untuk kode frontend
-│   ├── index.html             # Halaman utama website
-│   ├── css/
-│   │   └── style.css          # File CSS untuk styling
-│   ├── js/
-│   │   ├── main.js            # JavaScript utama untuk interaksi UI
-│   │   └── api.js             # File untuk fungsi-fungsi koneksi ke API
-│   └── assets/
-│       └── img/               # Folder untuk gambar dan aset lainnya
-└── backend/                   # Folder untuk kode backend
-    ├── server.js              # Entry point untuk server
-    ├── data/
-    │   ├── movieDb.js         # Database film (data dummy)
-    │   └── default.png        # Gambar poster default
-    ├── routes/
-    │   └── movies.js          # Route handler untuk API film
-    ├── config/
-    │   └── .env               # File konfigurasi environment
-    ├── package.json           # Dependency untuk backend
-    └── docs/
-        └── api-testing.md     # Dokumentasi dan hasil testing API
-```
+    ```
+    movie-info-website/
+    ├── frontend/                  # Folder untuk kode frontend
+    │   ├── index.html             # Halaman utama website
+    │   ├── css/
+    │   │   └── style.css          # File CSS untuk styling
+    │   ├── js/
+    │   │   ├── main.js            # JavaScript utama untuk interaksi UI
+    │   │   └── api.js             # File untuk fungsi-fungsi koneksi ke API
+    │   └── assets/
+    │       └── img/               # Folder untuk gambar dan aset lainnya
+    └── backend/                   # Folder untuk kode backend
+        ├── server.js              # Entry point untuk server
+        ├── data/
+        │   ├── movieDb.js         # Database film (data dummy)
+        │   └── default.png        # Gambar poster default
+        ├── routes/
+        │   └── movies.js          # Route handler untuk API film
+        ├── config/
+        │   └── .env               # File konfigurasi environment
+        ├── package.json           # Dependency untuk backend
+        └── docs/
+            └── api-testing.md     # Dokumentasi dan hasil testing API
+    ```
