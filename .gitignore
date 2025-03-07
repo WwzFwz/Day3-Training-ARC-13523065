@@ -1,0 +1,12 @@
+# Dependencies
+backend/node_modules/
+backend/package-lock.json
+
+# Environment variables
+backend/.env
+backend/config/.env
+
+
+
+# Editor director
+.vscode/

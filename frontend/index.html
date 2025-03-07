@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmKu | Streaming Film Terbaru</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>FILMKU</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Beranda</a></li>
+                    <li><a href="#trending">Trending</a></li>
+                    <li><a href="#lokal">Film Terbaru</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                </ul>
+            </nav>
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Cari film...">
+                <button id="search-button"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Film Terbaru & Terpopuler</h2>
+                <p>Streaming dan download berbagai film dari seluruh dunia.</p>
+                <a href="#trending" class="btn">Jelajahi Sekarang</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="trending" class="movie-section">
+        <div class="container">
+            <h2 class="section-title">Film Trending Minggu Ini</h2>
+            <div class="movie-grid" id="trending-movies">
+    
+                <div class="loading">Loading trending movies...</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="lokal" class="movie-section">
+        <div class="container">
+            <h2 class="section-title">Film Terbaru</h2>
+            <div class="movie-grid" id="local-movies">
+         
+                <div class="loading">Loading latest movies...</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="movie-details" class="hidden">
+        <div class="container">
+            <div class="movie-details-content">
+                <button id="close-details" class="btn-close"><i class="fas fa-times"></i></button>
+                <div id="details-content">
+ 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="search-results" class="movie-section hidden">
+        <div class="container">
+            <h2 class="section-title">Hasil Pencarian</h2>
+            <div class="movie-grid" id="search-results-grid">
+    
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">Tentang FilmKu</h2>
+            <div class="about-content">
+                <p>FilmKu adalah platform informasi film terbaru yang menyediakan data lengkap tentang film-film yang sedang tayang di bioskop dan akan datang.</p>
+                <p>Website ini dibuat menggunakan HTML, CSS, dan JavaScript dengan integrasi API dari The Movie Database (TMDB) dan API lokal untuk manajemen data film.</p>
+                <p>Dibangun sebagai proyek untuk memenuhi tugas pembuatan website dengan fitur:</p>
+                <ul>
+                    <li>Halaman Utama dengan tampilan sederhana menggunakan HTML, CSS, dan JavaScript</li>
+                    <li>API sederhana untuk manajemen data film</li>
+                    <li>Integrasi API publik (TMDB) untuk data film yang lebih lengkap</li>
+                    <li>Testing API dengan Postman</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>FilmKu</h2>
+                    <p>Your ultimate movie information source</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Tautan</h3>
+                    <ul>
+                        <li><a href="#">Beranda</a></li>
+                        <li><a href="#trending">Trending</a></li>
+                        <li><a href="#lokal">Film Terbaru</a></li>
+                        <li><a href="#about">Tentang</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Sosial Media</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 FilmKu. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
